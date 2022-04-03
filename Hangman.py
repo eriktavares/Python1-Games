@@ -10,7 +10,7 @@ def printStartGame():
 def loadSecretWord():
 
 
-    file = open("palavras.txt", "r")
+    file = open("words.txt", "r")
     words = []
     for line in file:
         line = line.strip()
